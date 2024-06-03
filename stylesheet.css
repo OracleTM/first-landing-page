@@ -1,10 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex-grow: 1;
     margin: 0;
     font-family: "Roboto", sans-serif; 
-    border: solid 5px red;
 }
 
 .header {
@@ -63,6 +62,7 @@ body {
     border: none;
     font-size: 14px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .hero-container {
@@ -144,4 +144,53 @@ blockquote {
     align-self: flex-end;
     font-size: 26px;
     font-weight: bold;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button-right button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 8px 40px 8px 40px;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.container-action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: #3882F6;
+    margin: 150px 250px 150px 250px;
+    border-radius: 10px;
+    padding: 60px 60px 60px 60px;
+}
+
+.call-to-aciton {
+    color: #E5E7EB;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.call-to-aciton-text {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
