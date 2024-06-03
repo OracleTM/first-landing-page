@@ -12,12 +12,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 200px 0 200px;
+    padding: 0 300px 0 300px;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 .links {
@@ -40,7 +41,7 @@ body {
 
 .main-text {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
     margin: 0;
     width: 400px;
@@ -50,7 +51,7 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
-    width: 400px;
+    width: 446px;
 }
 
 .sign-up {
@@ -67,18 +68,80 @@ body {
 .hero-container {
     display: flex;
     background-color: #1F2937;
-    padding: 100px 200px 100px 200px;
+    padding: 100px 300px 100px 300px;
     justify-content: space-between;
 }
 
 .holder-text {
     color: whitesmoke;
     font-size: 18px;
-    width: 400px;
+    width: 500px;
     height: 220px;
     margin: 0;
-    background-color: gray;
+    background-color: #6D747c;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.header-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    align-self: center;
+    margin-top: 32px;
+}
+
+.main-info {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+img {
+    border: solid 3px #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.text-card {
+    width: 150px;
+    text-align: center;
+    color: #6D747c;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 440px;
+    padding-right: 440px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+blockquote {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0;
+ }
+
+.autor {
+    align-self: flex-end;
+    font-size: 26px;
+    font-weight: bold;
 }
